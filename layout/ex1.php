@@ -42,7 +42,7 @@ echo "
 
 ?>
 <h3> 4 Screenshot of the development environment </h3>
-<img src=" " alt="">
+<img src="images/jpg.jpg " alt="Screen docker" style="width: 400px; height: 200px; margin-bottom:15px ;">
 <?php include "footer.php" ?>
 
 
