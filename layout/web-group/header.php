@@ -25,4 +25,6 @@
             <li><a id="Sale" href="sale.html">Sale</a></li>
           </ul>
         </div>
+        
+        <div class="line-divider"></div>
 
