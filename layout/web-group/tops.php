@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Cecile | Tops</title>
+  <title>Cecile | Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -11,12 +11,27 @@
 </head>
 <body>
 
-  <header>
+    <header>
+        <div class="container">
+          <div class="logo">
+            <a href="index.php"><img src="images/logo.png" width="400" heigth="auto" alt="Cecile"></a>
+          </div>
+  
+        
+  
+          <ul class="horizontal-list">
+            <li><a id="Tops" href="tops.php">Tops</a></li>
+            <li><a id="Sale" href="sales.php">Sale</a></li>
+          </ul>
+        </div>
+
+
+        <div class="line-divider"></div>
 
   <div class="container">
 
 
-  <link rel="stylesheet" href="tops.css">
+      
           <div class="p-5 text-center bg-image rounded-3">
         <div class="mask" style="background-color: #ffe8e0d5">
           <div class="d-flex justify-content-center align-items-center h-100">
@@ -82,4 +97,58 @@
           </div>
           
 
-          <?php include "footer.php" ?>
+
+
+
+    </header>
+
+    
+              <footer> 
+                <div class="footer-widget">
+                  <div class="container">
+                      <div class="row">
+                          <div class="row justify-content-center">
+                          <div class="col-sm-6">
+                              <div class="single-widget">
+                                  <h2>About Cecile</h2>
+                                  <ul class="nav nav-pills nav-stacked">
+                                      <li><a href="404.html">About us</a></li>
+                                      <li><a href="404.html">Work with us</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="single-widget">
+                                  <h2>Information</h2>
+                                  <ul class="nav nav-pills nav-stacked">
+                                      <li><a href="404.html">Track order</a></li>
+                                      <li><a href="404.html">Delivery and Returns</a></li>
+                                      
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+          
+                  <div class="footer-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <p class="pull-left">Copyright © 2023 Cecile. All rights reserved.</p>
+                            <p> <img src="images/logo.png"  alt="logo2"></p>
+                        </div>
+                    </div>
+                  </div>
+              </footer>
+
+
+
+
+
+
+  
+
+
+
+</body>
+</html>
