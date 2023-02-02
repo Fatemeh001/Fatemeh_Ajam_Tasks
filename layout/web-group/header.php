@@ -15,14 +15,14 @@
     <header>
         <div class="container">
           <div class="logo">
-            <a href="index.html"><img src="images/logo.png" width="400" heigth="auto" alt="Cecile"></a>
+            <a href="index.php"><img src="images/logo.png" width="400" heigth="auto" alt="Cecile"></a>
           </div>
   
         
   
           <ul class="horizontal-list">
-            <li><a id="Tops" href="tops.html">Tops</a></li>
-            <li><a id="Sale" href="sale.html">Sale</a></li>
+            <li><a id="Tops" href="tops.php">Tops</a></li>
+            <li><a id="Sale" href="sale.php">Sale</a></li>
           </ul>
         </div>
         
