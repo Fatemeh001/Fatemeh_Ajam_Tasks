@@ -48,14 +48,14 @@
 
                           
 
-                          <a href="405.html" class="image">
+                          <a href="405.php" class="image">
                               <img src="images/model2.2.png" alt="Hoodie">
 
                           </a>
-                          <a href="404.html" class="add-to-cart">OUT OF STOCK</a>
+                          <a href="404.php" class="add-to-cart">OUT OF STOCK</a>
                       </div>
                       <div class="product-content">
-                          <h3 class="title"><a href="405.html">Hoodie</a></h3>
+                          <h3 class="title"><a href="405.php">Hoodie</a></h3>
                           <div class="price">60.00€</div>
                       </div>
                   </div>
@@ -64,7 +64,7 @@
               <div class="col-lg-4 col-md-6 col-sm-4" style="float: right;  margin-right: 100px;" >
                 <div class="product-grid">
                     <div class="product-image">
-                        <a href="405.html" class="image">
+                        <a href="405.php" class="image">
 
                             
 
@@ -72,10 +72,10 @@
 
                         </a>
                         
-                        <a href="404.html" class="add-to-cart">OUT OF STOCK</a>
+                        <a href="404.php" class="add-to-cart">OUT OF STOCK</a>
                     </div>
                     <div class="product-content">
-                        <h3 class="title"><a href="405.html">Sweater</a></h3>
+                        <h3 class="title"><a href="405.php">Sweater</a></h3>
                         <div class="price">49.00€ <span>70.00€</span></div>
                         
                     </div>
