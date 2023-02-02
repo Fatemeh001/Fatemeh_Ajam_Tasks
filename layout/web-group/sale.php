@@ -20,8 +20,8 @@
     
 
       <ul class="horizontal-list">
-        <li><a id="Tops" href="tops.php">Tops</a></li>
-        <li><a id="Sale" href="sale.php">Sale</a></li>
+            <li><a id="Tops" href="tops.php">Tops</a></li>
+            <li><a id="Sale" href="sale.php">Sale</a></li>
       </ul>
     </div>
 
