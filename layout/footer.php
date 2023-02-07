@@ -11,7 +11,7 @@
   <?php
 $filename = 'variable.php';
 if (file_exists($filename)) {
-    echo " Last modified: " . date ("F d Y H:i.", filemtime($filename));
+    echo " Last modified: " . date ("l, dS F, Y, h:i a", filemtime($filename));
 }
 ?><br>  </div>
 

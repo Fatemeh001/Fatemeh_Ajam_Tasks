@@ -29,28 +29,40 @@ echo statement to print using  tag: Hello …., You are welcome to my site.  (Fo
 <h3> Prepare a simple html table and apply bootstrap style to the table. 
     You may use the same table that you did in 3.5.
  </h3>
-<?php
+
 $g1 = 5;
 $g2 = 4;
 $g3 = 5;
 echo "
-<table >
-<tr>
-<th> S.N </th><th> Name </th><th> Grade</th>
-</tr>
-<tr>
-<td> 1 </td><td> Pekka </td><td> $g1 </td>
-</tr>
-<tr>
-<td> 2 </td><td>Johanna </td><td> $g2 </td>
-</tr>
-<tr>
-<td> 3 </td><td> John </td><td> $g3 </td>
-</tr>
-</table><br>
-";
 
-?>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">S.N</th>
+      <th scope="col">Name</th>
+      <th scope="col"> Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Pekka</td>
+      <td>$g1 </td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Johanna</td>
+      <td>$g2 </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>John</td>
+      <td>$g3</td>
+    </tr>
+  </tbody>
+</table>
+?>  
 <h3>Write a PHP script with two string variables.
      Assign any text to these variables. Join them together.  
      Print the length of the string. (Hint: string function)</h3>
