@@ -8,7 +8,7 @@
         <div class="mask" style="background-color: #ffe8e0d5">
           <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white">
-              <h1 class="mb-3 " style="padding-top: 16px; padding-bottom: 16px;">Wear clothes that make you be yourself</h1>
+               <h1 class="mb-3 " style="padding-top: 16px; padding-bottom: 16px;">Wear clothes that make you be yourself</h1>
 
             </div>
 
