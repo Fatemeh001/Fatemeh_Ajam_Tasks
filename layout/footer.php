@@ -1,23 +1,54 @@
-</dive>
-</dive>
-<div class="row">
-<footer style="background-color: rgb(65, 7, 109); color: white;">
-
-  <!--  Copyright -->
-  <div class="footer-copyright text-center py-3" >© 2020 Copyright <br>
-
-
-  <!-- Copyright -->
-  <?php
-$filename = 'variable.php';
-if (file_exists($filename)) {
-    echo " Last modified: " . date ("l, dS F, Y, h:i a", filemtime($filename));
-}
-?><br>  </div>
-
-<!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    </body>
-    </html>
+</div>
     
+</div>
+
+</div>
+
+
+
+</header>
+
+<footer> 
+  <div class="footer-widget">
+  <div class="container">
+      <div class="row">
+          <div class="row justify-content-center">
+          <div class="col-sm-6">
+              <div class="single-widget">
+                  <h2>About Cecile</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                      <li><a href="404.php">About us</a></li>
+                      <li><a href="404.php">Work with us</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="col-sm-6">
+              <div class="single-widget">
+                  <h2>Information</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                      <li><a href="404.php">Track order</a></li>
+                      <li><a href="404.php">Delivery and Returns</a></li>
+                      
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="footer-bottom">
+  <div class="container">
+      <div class="row">
+        <p> <img src="images/logo.png" alt="logo2"></p>
+          <p class="pull-left">Copyright © 2023 Cecile. All rights reserved.<br>
+          <?php 
+          $filename = 'variable.php';
+          if (file_exists($filename)) {
+          echo " Last modified: " . date ("l, dS F, Y, h:i a", filemtime($filename));}
+          ?></p> </div>
+      </div>
+  </div>
+</div>
+</footer>
+</body>
+</html>

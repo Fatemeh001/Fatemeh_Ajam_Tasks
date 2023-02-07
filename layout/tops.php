@@ -20,8 +20,15 @@
         
   
           <ul class="horizontal-list">
+          <li><a  class="nav-item" href="index.php">Fatemeh Ajam</a></li>
             <li><a id="Tops" href="tops.php">Tops</a></li>
             <li><a id="Sale" href="sale.php">Sale</a></li>
+            <li class="nav-item">
+          <a class="nav-link" href="ex1.php">Exercise 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="variable.php">Exercise 3</a>
+        </li>
           </ul>
         </div>
 
@@ -102,53 +109,4 @@
 
     </header>
 
-    
-              <footer> 
-                <div class="footer-widget">
-                  <div class="container">
-                      <div class="row">
-                          <div class="row justify-content-center">
-                          <div class="col-sm-6">
-                              <div class="single-widget">
-                                  <h2>About Cecile</h2>
-                                  <ul class="nav nav-pills nav-stacked">
-                                      <li><a href="404.html">About us</a></li>
-                                      <li><a href="404.html">Work with us</a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="col-sm-6">
-                              <div class="single-widget">
-                                  <h2>Information</h2>
-                                  <ul class="nav nav-pills nav-stacked">
-                                      <li><a href="404.html">Track order</a></li>
-                                      <li><a href="404.html">Delivery and Returns</a></li>
-                                      
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-          
-                  <div class="footer-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <p class="pull-left">Copyright © 2023 Cecile. All rights reserved.</p>
-                            <p> <img src="images/logo.png"  alt="logo2"></p>
-                        </div>
-                    </div>
-                  </div>
-              </footer>
-
-
-
-
-
-
-  
-
-
-
-</body>
-</html>
+    <?php include "footer.php" ?>

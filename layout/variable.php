@@ -9,11 +9,11 @@ echo statement to print using  tag: Hello …., You are welcome to my site.  (Fo
 </h2>
 <form action="action.php" method="post">   
     <dive class="row">
-        <div class="col">
-
-    First Name: <input type="text" name="fname" placeholder="First Name" class="form-control">  </div> 
-         <div class="col"> 
-    Last Name: <input type="text"   name="lname" placeholder="Last Name" class="form-control"> </div>
+        <div class="col" >
+<p style="float:left;">
+    First Name: <input type="text" name="fname" placeholder="First Name" class="form-control" > </p> </div> 
+   <div class="col">   <p style="float:left; padding-left: 5px; "> 
+    Last Name: <input type="text"   name="lname" placeholder="Last Name" class="form-control"> </p></div>
     </dive>
     
        
