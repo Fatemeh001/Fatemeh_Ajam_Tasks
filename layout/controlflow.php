@@ -94,17 +94,17 @@ $browser = $_SERVER['HTTP_USER_AGENT'];
     switch ($httpUA) 
 
     {
-    case strpos($httpUA, "Edg") == true;
+    case strpos($browser, "Edg") == true;
 
         echo "<br> You are using Microsoft Edge";
         break;
 
-    case strpos($httpUA, "Chrome") == true;
+    case strpos($browser, "Chrome") == true;
 
         echo "<br> You are using Goolge Chrome";
         break;
     
-    case strpos($httpUA, "Firefox") == true;
+    case strpos($browser, "Firefox") == true;
 
         echo "<br> You are using Mozila Firefox";
         break;
