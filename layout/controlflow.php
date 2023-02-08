@@ -91,13 +91,13 @@ Use Switch statement with strops function to print the name of the browser as be
 <?php
 $browser = $_SERVER['HTTP_USER_AGENT'];
 
-    switch ($httpUA) 
+    switch ($browser) 
 
     {
     case strpos($browser, "Edg") == true;
 
         echo "<br> You are using Microsoft Edge";
-        break;
+    break;
 
     case strpos($browser, "Chrome") == true;
 
