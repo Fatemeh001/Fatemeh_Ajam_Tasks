@@ -94,16 +94,7 @@ echo "The length of " . $c ." is: " .strlen($c);
  <?php
 echo $_SERVER['HTTP_USER_AGENT'];
 ?><br><br>
-
-<h3>Write a PHP script in the footer section of your universal 
-    footer to display the last modification time of a file. 
-
-    <?php
-$filename = 'footer.php';
-if (file_exists($filename)) {
-    echo "$filename was last modified: " . date ("l, dS F, Y, h:i a", filemtime($filename));
-}
-?><br>
+    
 
 <?php include "footer.php" ?>
 

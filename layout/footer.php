@@ -41,14 +41,14 @@
       <div class="row">
         <p> <img src="images/logo.png" alt="logo2"></p>
           <p class="pull-left">Copyright © 2023 Cecile. All rights reserved.<br>
-          <?php 
-          $filename = 'variable.php';
-          if (file_exists($filename)) {
-          echo " Last modified: " . date ("l, dS F, Y, h:i a", filemtime($filename));}
-          ?></p> </div>
+          <?php
+    $fname = basename($_SERVER['PHP_SELF']);
+    $last_modified = filemtime($fname);
+    echo "last modified: " . date ('l jS \o\f F Y,h:i:s A', $last_modified);
+?><br></div>
       </div>
-  </div>
-</div>
+  </div>    
+</div>`
 </footer>
 </body>
 </html>
