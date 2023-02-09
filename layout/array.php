@@ -54,7 +54,7 @@ for($y=0 ; $y<count($courses4) ; $y++){
    echo implode(',' ,$courses4)
 ?>
 
-<h3>List all your favorite colors and their hexadecimal equivalents. (associative arrays)</h3>
+<h3>5. List all your favorite colors and their hexadecimal equivalents. (associative arrays)</h3>
 
 <?php
 $fcolor = array(
