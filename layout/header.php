@@ -32,20 +32,23 @@
         
             
           <ul class="horizontal-list">
-          <li><a  class="nav-item" href="index.php">Fatemeh Ajam</a></li>
-            <li><a id="Tops" href="tops.php">Tops</a></li>
-            <li><a id="Sale" href="sale.php">Sale</a></li>
+          <li><a  class="nav-item" href="../layout/index.php">Fatemeh Ajam</a></li>
+            <li><a id="Tops" href="../layout/tops.php">Tops</a></li>
+            <li><a id="Sale" href="../layout/sale.php">Sale</a></li>
             <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Ex1</a>
+          <a class="nav-link" href="../layout/ex1.php">Ex1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="variable.php">Ex3</a>
+          <a class="nav-link" href="../layout/variable.php">Ex3</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="controlflow.php">Ex4</a>
+          <a class="nav-link" href="../layout/controlflow.php">Ex4</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="array.php">Ex5</a>
+          <a class="nav-link" href="../layout/array.php">Ex5</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../crud1/create.php">Ex6</a>
         </li>
           </ul>
         </div>

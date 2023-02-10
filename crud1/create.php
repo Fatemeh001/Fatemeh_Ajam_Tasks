@@ -1,6 +1,6 @@
 <?php
 $title = "A simple Crup app";
-include "header.php";
+include "../layout/header.php";
 ?>
 <form action="" method="post">
     <input type="text" name="fname" placeholder="Fisrt Name" required><br><br>
@@ -37,5 +37,5 @@ if(isset($_POST['submit'])){
 
 
 <?php
-include "footer.php";
+include "../layout/footer.php";
 ?>
