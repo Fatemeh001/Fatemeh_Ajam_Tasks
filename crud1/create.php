@@ -36,6 +36,6 @@ if(isset($_POST['submit'])){
 
 
 
-<?php
-include "../layout/footer.php";
-?>
+    <?php
+    include "../layout/footer.php";
+    ?>
