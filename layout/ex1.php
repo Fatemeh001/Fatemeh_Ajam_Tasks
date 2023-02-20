@@ -28,7 +28,22 @@ $title1 = "PHP is interesting";
 echo "<h1>". $title1. "</h1>";
 ?>
 
+<script>
+    //window.alert
+    //window.alert("this will trigger an alert box");
+  // window.alert(5+10);
+  document.write("Hello this is interesting");
+</script>
+
 <h3> 3.5 Table & Variables </h3>
+<button onclick="add()" >Click to add</button>
+<hr>
+<p id="place1" style="color:red; background-color:yellow;"></p> 
+<span id="place2" style="color:red; background-color:green;"></p> 
+<script>
+    document.getElementById("place1").innerHTML= "this is will go to place1";
+    document.getElementById("place2").innerHTML= "this is will go to span";
+    </script>
 <?php
 $g1 = 5;
 $g2 = 4;
@@ -53,6 +68,12 @@ echo "
 ?>
 <h3> 4 Screenshot of the development environment </h3>
 <img src="images/jpg.jpg " alt="Screen docker" style="width: 400px; height: 2   00px; margin-bottom:15px ;">
-<?php include "footer.php" ?>
+<h2>Changing background-color</h2>
+<form>
+<input type="color" name="background"
+ onchange="changeColor('background', this.value)">
+</form>
 
+
+<?php include "footer.php" ?>
 

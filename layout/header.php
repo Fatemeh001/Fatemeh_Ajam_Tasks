@@ -14,6 +14,8 @@
     color: black;
 }
     </style>
+    <script src="js/site.js"></script>
+    <input type="botton" onclick="hello()" value="click Me">
 </head>
 <body>
 <div class="container" >
