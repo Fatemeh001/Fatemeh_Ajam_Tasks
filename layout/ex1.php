@@ -11,7 +11,17 @@ echo "Hello world ! My name is \"David\"";
 
 ?>
 <h1> Current Date</h1>
-<?php echo date("d.m.Y")?>
+<?php echo date("d.m.Y")?><br>
+<script>
+   
+document.write("Hello world this is javascript");
+
+
+</script>
+<noscript>
+    please enable javascript to to view this content,
+    </noscript>
+
 <h3> 3.4 vaiable in php </h3>
 <?php
 $title1 = "PHP is interesting";
