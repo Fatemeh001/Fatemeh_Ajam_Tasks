@@ -2,8 +2,8 @@
 $title = "A simple Crup app";
 include "../layout/header.php";
 ?>
-<form action="" method="post">
-    <input type="text" name="fname" placeholder="Fisrt Name" required><br><br>
+<form action="" method="post" action="" onsubmit="return crud()" name="form1">
+    <input type="text" name="fname" placeholder="Fisrt Name" required onblur="fname()"><br><br>
     <input type="text" name="lname" placeholder="Last Name" required><br><br>
     <input type="text" name="city" placeholder="City" required><br><br>
     <select name="groupid">
